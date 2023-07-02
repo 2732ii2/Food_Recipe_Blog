@@ -1,38 +1,337 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: white;
+  overflow: hidden;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#cmain{
+  width: 100%;
+  height: 93.2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(254, 252, 252);
+}
+#bh2{
+  margin-top: 5%;
+  font-size: 32px;
+}
+#box{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 40%;
+  background: white;
+  min-width: 40%;
+  height: 80%;
+  border: 1px solid rgb(11, 11, 11,.2);
+}
+@media (max-width:800px) {
+  #box{
+    min-width: 70%;
   }
 }
+#bblcks{
+  margin-top: 5%;
+  font-size: 28px;
+  /* background: rgb(254, 252, 252); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 10%;
+  /* border: 1px solid red; */
+}
+#bbin{
+  width: 50%;
+  min-width:200px;
+  min-height:40px ;
+  height: 70%;
+  background: rgb(254, 252, 252);
+}
+#bbint{
+    height: 80%;
+    font-size: 22px;
+    padding: 5px;
+}
+#bbtn{
+  margin-top: 10%;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background: rgb(217, 214, 214,.5);
+  color: black;
+  font-size: 20px;
+}
+#hmain{
+  width: 100%;
+  height: 93vh;
+  display: flex;
+  overflow-y: scroll;
+  justify-content: center;
+  padding-bottom: 50px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  flex-wrap: wrap;
+  /* margin-top: 70px; */
+  /* background: orange; */
+  /* border: 1px solid red; */
+}
+#savedcon{
+  width: 100%;
+  height: 93.2vh;
+  background: rgba(178, 176, 176, 0.2);
+  display: flex;
+  /* background: red; */
+  align-items: center;
+  /* align-items: center; */
+  justify-content: center;
+}
+#inndiv{
+  width: 85%;
+  height: 90%;
+  margin: auto;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  min-height: 90%;
+  border: 1px solid rgb(8, 8, 8,.3);
+  box-shadow: 0 21px 52px -10px black;
+}
+#il{
+  width: 70%;
+  min-width: 60%;
+  display: flex;
+  background: rgba(249, 249, 249, 0.7);
+  flex-direction: column;
+  height: 100%;
+}
+#ih_1{
+  margin-top: 2%;
+  margin: auto;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 42px;
+  text-transform: capitalize;
+  /* background: red; */
+}
+#ih_2{
+  margin-top: 2%;
+  text-transform: capitalize;
+
+  font-weight: 400;
+  margin-bottom: 2%;
+  letter-spacing: 3px;
+  font-size: 32px;
+}
+#ir{
+  width: 40%;
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background: rgba(249, 249, 249, 0.7);
+  /* padding: 5px; */
+  /* border-left: 1px solid red; */
+  height: 100%;
+}
+#i_p{
+  width: 80%;
+  height: 90%;
+  z-index: 0;
+  font-size: 22px;
+  overflow-y: scroll;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+#btnabs{
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  z-index: 1;
+  font-size: 32px;
+  border: none;
+  color: black;
+  /* text-shadow: 4px 4px 40px black; */
+}
+#multi{
+  width: 20%;
+  min-width: 28%;
+  position: relative;
+  max-width: 32%;
+  display: flex;
+  margin: 20px;
+  margin-right: 40px;
+  transition: all .5s;
+  flex-direction: column;
+  cursor: pointer;
+
+  height: 65%;
+  /* overflow: hidden; */
+  min-height: 30%;
+  border: 1px solid rgb(18, 17, 17,.2);
+}
+#multi:hover{
+  box-shadow: 0px 21px 42px -7px rgba(102, 100, 100, 0.5);
+}
+@media (max-width:750px) {
+  #multi{
+    min-width: 300px;
+  }
+}
+#img_{
+  width: 100%;
+  height: 40%;
+  min-height: 60%;
+  transition: all .5s;
+}
+#img_:hover{
+  transform: scale(.9);
+}
+#multih2{
+  font-size: 26px;
+  margin-top: 2%;
+}
+/* #layer{
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  backdrop-filter: blur(10px);
+  margin-top: 0%;
+  background: rgba(250, 249, 249, 0.2);
+} */
+#h_2{
+  font-size: 22px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  margin-top: 10%;
+  color: rgb(32, 32, 246);
+  font-weight: 500;
+}
+#p_{
+  margin-top: 10%;
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 40px;
+  height: 230px;
+  max-height: 200px;
+  /* border: 1px solid black; */
+  overflow-y: scroll;
+  margin-right: 40px;
+  color: black;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  /* text-shadow: 2px 2px 4px black; */
+}
+#content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#auth{
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(211, 208, 208, 0.5);
+}
+.authdiv{
+  width: 45%;
+  height:70%;
+  min-height: 70%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+#field{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  height: 40%;
+  margin-top: 0%;
+}
+#btn{
+  width: 200px;
+  background: black;
   color: white;
+  height: 60px;
+  border-radius: 7px;
+  font-size: 22px;
+}
+#regh{
+  font-size: 44px;
+  font-weight: 500;
+  margin-top: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.blocks{
+  width: 80%;
+  min-height: 50px;
+  margin-top: 4%;
+  text-transform: capitalize;
+  display: flex;
+  font-weight: 500;
+  justify-content: space-evenly;
+  align-items: center;
+  color: black;
+  font-size: 24px;
+  /* border: 1px solid black; */
+  /* background: black; */
+}
+#lgbtn{
+  background: white;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+input{
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  padding-left: 10px;
+  border-radius: 7px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+#slide{
+  width: 100%;
+  height: 70px;
+  min-height: 70px;
+  background: black;
+  display: flex;
+  font-weight: 400;
+  z-index: 2;
+  letter-spacing: 2px;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-size: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#samediv{
+  color: white;
+  text-decoration: none;
+  padding: 4px;
+  transition: all .5s;
+}
+#samediv:hover{
+  color: rgb(24, 179, 231);
+  border-bottom: 2px solid rgb(24, 179, 231);
 }
