@@ -2,6 +2,29 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+# ScreenShots
+
+<h3> Home page </h3>
+<p> Without Sign In </p>
+<img width="1440" alt="Screenshot 2023-07-18 at 12 55 59 PM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/d923c8b2-5963-495b-90df-c0e2a4a7b595">
+<p> With Sign In </p>
+<img width="1440" alt="Screenshot 2023-07-18 at 1 07 04 PM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/65df80e7-44a2-4306-9d49-26298eed2e49">
+
+
+<h3>Create Recipe</h3>
+<img width="1440" alt="Screenshot 2023-07-18 at 1 03 55 PM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/15d1197e-cf25-4904-bef8-d8876aceed83">
+
+<h3>Login PAGE</h3>
+<img width="1440" alt="Screenshot 2023-07-18 at 12 57 47 PM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/8ae49267-3d2d-44c1-8a34-eac8beaa27ae">
+
+<h3>Scroll animation</h3>
+<img width="1440" alt="Screenshot 2023-07-18 at 1 08 49 PM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/7cbe3300-fb5c-4c45-af18-239e61e7acca">
+
+
+## Deployed Link 
+https://keen-dragon-1a6992.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
