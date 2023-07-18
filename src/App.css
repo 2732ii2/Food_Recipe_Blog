@@ -71,8 +71,9 @@
   font-size: 20px;
 }
 #hmain{
-  width: 100%;
+  width: 90%;
   height: 93vh;
+  margin: auto;
   display: flex;
   overflow-y: scroll;
   justify-content: center;
@@ -97,14 +98,14 @@
   width: 85%;
   height: 90%;
   margin: auto;
-  margin-top: 1.5%;
-  margin-bottom: 1.5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
   display: flex;
   overflow: hidden;
   border-radius: 10px;
-  min-height: 90%;
+  min-height: 85%;
   border: 1px solid rgb(8, 8, 8,.3);
-  box-shadow: 0 21px 52px -10px black;
+  /* box-shadow: 0 21px 52px -10px black; */
 }
 #il{
   width: 70%;
@@ -174,11 +175,192 @@
   transition: all .5s;
   flex-direction: column;
   cursor: pointer;
-
+  /* opacity: 0; */
   height: 65%;
   /* overflow: hidden; */
   min-height: 30%;
   border: 1px solid rgb(18, 17, 17,.2);
+}
+
+#slides_show{
+  width: 100%;
+  height: 93.5vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  /* background:linear-gradient(to right, black,rgb(190, 177, 177),black); */
+}
+#main_slider{
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  transition: all cubic-bezier(2.23, 1, 0.320, 1);
+  align-items: center;
+  height: auto;
+}
+.samesl{
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  margin:20px;
+  overflow: hidden;
+  box-shadow: 0 11px 32px -7px rgb(20, 20, 20,.5);
+  /* border: 1px solid rgb(22, 22, 22,.5); */
+}
+#ssl0,#ssl4,#diff0,#diff4{
+  z-index: 1;
+  width: 180px;
+  position: relative;
+  min-width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  margin: auto;
+  transition: all .5s;
+}
+
+@media (max-width:1282px) {
+  #ssl0{
+    margin-left: -10%;
+  }
+}
+@media (max-width:1078px) {
+  #ssl0{
+    margin-left: -13%;
+  }
+}
+@media (max-width:1078px) {
+  #ssl0{
+    margin-left: -13%;
+  }
+}
+@media (max-width:955px) {
+  #ssl0{
+    margin-left: -19%;
+  }
+}
+/* 955 */
+
+#p_s{
+  position: absolute;
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  height: 100%;
+  backdrop-filter: blur(4.5px);
+  text-transform: capitalize;
+  background: linear-gradient(rgba(245, 242, 242, 0.1),rgba(251, 251, 251, 0.2));
+  overflow-y: scroll;
+  /* margin-top: 80%; */
+  /* margin-bottom: -90%; */
+}
+#p_s1{
+
+  position: absolute;
+  width: 100%;
+  font-size: 16px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  /* padding: 15px; */
+  /* backdrop-filter: blur(3px); */
+  text-transform: capitalize;
+  background: linear-gradient(transparent,rgba(4, 4, 4, 0.8));
+  overflow-y: scroll;
+  /* transition: all .5s; */
+}
+#para{
+  /* margin-top: 10%; */
+  color: white;
+  width: 80%;
+  letter-spacing: 1.5px ;
+  word-spacing: 4px;
+  height: 20%;
+  margin-bottom: 30px;
+  overflow-y: scroll;
+    /* margin: auto; */
+    /* margin-top: 113%; */
+}
+/* 1078 */
+#ssl1,#ssl3,#diff1,#diff3{
+  z-index: 2;
+  width: 280px;
+  min-width: 280px;
+  position: relative;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 450px;
+  transition: all .5s;
+}
+#diff3{
+  /* width: 300px;
+  min-width: 250px;
+  height: 450px; */
+  transition: all .5s;
+
+}
+#ssl2{
+  z-index: 3;
+  width: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 350px;
+  box-shadow: 0 11px 32px -11px white;
+  margin: auto;
+  background: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  transition: all .5s;
+  height: 550px;
+}
+
+#leftbtn,#rightbtn{
+  width: 10%;
+  height: 90%;
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#rightbtn{
+  flex-direction: column;
+  justify-content: space-between;
+}
+#midd{
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#midimg{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cmiddimg{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 100%;
+  background: linear-gradient(to bottom,transparent, black);
+}
+#midimg{
+  width: 80%;
+  height: 90%;
+  background: black;
 }
 #multi:hover{
   box-shadow: 0px 21px 42px -7px rgba(102, 100, 100, 0.5);
@@ -316,6 +498,8 @@ input{
   background: black;
   display: flex;
   font-weight: 400;
+  border-bottom: 1px solid rgb(249, 245, 245);
+  /* box-shadow: 2px 2px 4px white; */
   z-index: 2;
   letter-spacing: 2px;
   justify-content: space-evenly;

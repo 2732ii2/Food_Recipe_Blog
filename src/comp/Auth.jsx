@@ -51,8 +51,11 @@ const [_,setCookies] = useCookies(["accesstoken"]);
           try {
             var { data } = await axios.post(`${Url}register`, state);
             alert(data.message);
-            // navi("/auth");
-            window.location.reload();
+            navi("/");
+            setTimeout(()=>{
+              navi("/auth");
+            },0);
+            // window.location.reload();
           } catch (e) {
             console.log(e.message);
           }

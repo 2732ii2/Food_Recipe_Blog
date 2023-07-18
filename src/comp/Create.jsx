@@ -61,6 +61,7 @@ export default function Create() {
                   onChange={handler}
                   name={e}
                   id="bbin"
+                  type='password'
                   value={id ? id : ""}
                 />
               </div>
