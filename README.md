@@ -9,7 +9,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <p> Without Sign In </p>
 <img width="1440" alt="Screenshot 2023-07-18 at 12 55 59 PM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/d923c8b2-5963-495b-90df-c0e2a4a7b595">
 <p> With Sign In </p>
-<img width="1440" alt="Screenshot 2023-07-18 at 1 07 04 PM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/65df80e7-44a2-4306-9d49-26298eed2e49">
+<img width="1440" alt="Screenshot 2023-10-09 at 10 47 40 AM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/3705e2dc-ca90-41c2-833a-39605ab87995">
+
+<!-- <img width="1440" alt="Screenshot 2023-07-18 at 1 07 04 PM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/65df80e7-44a2-4306-9d49-26298eed2e49"> -->
 
 
 <h3>Create Recipe</h3>
@@ -19,7 +21,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <img width="1440" alt="Screenshot 2023-07-18 at 12 57 47 PM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/8ae49267-3d2d-44c1-8a34-eac8beaa27ae">
 
 <h3>Scroll animation</h3>
-<img width="1440" alt="Screenshot 2023-07-18 at 1 08 49 PM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/7cbe3300-fb5c-4c45-af18-239e61e7acca">
+<img width="1440" alt="Screenshot 2023-10-09 at 10 48 25 AM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/4a254c67-b1d4-41e2-a7d7-6ae9b0f636e8">
+
+<!-- <img width="1440" alt="Screenshot 2023-07-18 at 1 08 49 PM" src="https://github.com/2732ii2/Food_Recipe_Blog/assets/83974207/7cbe3300-fb5c-4c45-af18-239e61e7acca"> -->
 
 
 ## Deployed Link 
