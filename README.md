@@ -27,7 +27,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Deployed Link 
-https://keen-dragon-1a6992.netlify.app/
+https://tourmaline-frangollo-5e00d5.netlify.app/
+
 
 ## Available Scripts
 
